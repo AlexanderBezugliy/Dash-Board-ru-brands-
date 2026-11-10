@@ -66,8 +66,8 @@ export function DomainTable({ rows, query }: { rows: DomainCheck[]; query: strin
     <div className="min-h-0 flex-1 overflow-auto">
       <table className="w-full min-w-[760px] border-collapse text-left">
         <caption className="sr-only">Результаты проверки доменов</caption>
-        <thead className="sticky top-0 z-10 bg-background">
-          <tr className="border-b border-border text-sm text-muted-foreground">
+        <thead className="sticky top-0 z-10 bg-white dark:bg-gray-900">
+          <tr className="border-b border-gray-200 text-sm text-gray-500 dark:border-gray-800 dark:text-gray-400">
             <th scope="col" className="px-4 py-3 font-normal">
               Домен
             </th>
@@ -88,7 +88,7 @@ export function DomainTable({ rows, query }: { rows: DomainCheck[]; query: strin
         <tbody>
           {rows.length === 0 ? (
             <tr>
-              <td colSpan={5} className="px-4 py-8 text-muted-foreground">
+              <td colSpan={5} className="px-4 py-8 text-gray-500 dark:text-gray-400">
                 {query.trim()
                   ? "Такого домена нет в списке."
                   : "В этом списке пусто."}
@@ -100,13 +100,13 @@ export function DomainTable({ rows, query }: { rows: DomainCheck[]; query: strin
                 key={row.domain}
                 className={
                   rowHasProblem(row)
-                    ? "border-b border-border shadow-[inset_3px_0_0_var(--alarm)]"
-                    : "border-b border-border"
+                    ? "border-b border-gray-200 shadow-[inset_3px_0_0_var(--alarm)] dark:border-gray-800"
+                    : "border-b border-gray-200 hover:bg-gray-50 dark:border-gray-800 dark:hover:bg-gray-800"
                 }
               >
                 <th
                   scope="row"
-                  className="font-domain px-4 py-3 text-left text-xl leading-none font-semibold whitespace-nowrap text-foreground"
+                  className="font-domain px-4 py-3 text-left text-xl leading-none font-semibold whitespace-nowrap text-gray-900 dark:text-gray-100"
                 >
                   {row.domain}
                 </th>
