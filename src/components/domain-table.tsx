@@ -1,6 +1,7 @@
 import { formatIndexed, rowHasProblem, type DomainCheck } from "@/lib/records"
 
-function toneClass(tone: "plain" | "quiet" | "stamp" | "alarm"): string {
+function toneClass(tone: "plain" | "quiet" | "stamp" | "alive" | "alarm"): string {
+  if (tone === "alive") return "text-alive"
   if (tone === "stamp") return "text-stamp"
   if (tone === "alarm") return "text-alarm"
   if (tone === "quiet") return "text-muted-foreground"
@@ -11,7 +12,7 @@ function HttpCell({ row }: { row: DomainCheck }) {
   if (row.http.code === null && row.http.alive === null && row.http.error === null) {
     return <span className={toneClass("quiet")}>ожидание</span>
   }
-  if (row.http.code === 200) return <span className={toneClass("stamp")}>200</span>
+  if (row.http.code === 200) return <span className={toneClass("alive")}>200</span>
   if (row.http.code !== null) return <span className={toneClass("alarm")}>{row.http.code}</span>
   return <span className={toneClass("alarm")}>{row.http.error ?? "нет ответа"}</span>
 }
@@ -29,7 +30,7 @@ function RuCell({ row }: { row: DomainCheck }) {
     )
   }
   if (row.ru.state === "done" && row.ru.code === 200) {
-    return <span className={toneClass("stamp")}>200</span>
+    return <span className={toneClass("alive")}>200</span>
   }
   if (row.ru.state === "done" && row.ru.code !== null) {
     return <span className={toneClass("alarm")}>{row.ru.code}</span>

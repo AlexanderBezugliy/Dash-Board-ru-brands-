@@ -4,6 +4,9 @@ import { fileURLToPath } from "node:url"
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..")
 
+// Главная без этого параметра отвечает 503. С ним открывается обычная страница.
+const OPEN_QUERY = "view=d7Fm2Kp9Qx4Nw8Rz"
+
 // Позже: если заданы TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID,
 // после записи data/status.json отправить одно сообщение со списком доменов,
 // которые не ответили, не открылись из России, попали в реестр РКН
@@ -73,21 +76,40 @@ async function readJsonResponse(response) {
   }
 }
 
+function cookiePairs(setCookie) {
+  const list = Array.isArray(setCookie) ? setCookie : setCookie ? [setCookie] : []
+  return list
+    .map((item) => String(item).split(";")[0].trim())
+    .filter((item) => item.includes("="))
+    .join("; ")
+}
+
 async function checkHttp(domain) {
   try {
-    const response = await fetch(`https://${domain}/`, {
-      redirect: "follow",
+    const opened = await fetch(`https://${domain}/?${OPEN_QUERY}`, {
+      redirect: "manual",
       signal: AbortSignal.timeout(20000),
       headers: {
         accept: "text/html,application/xhtml+xml",
         "user-agent": "RuBrandsCheck/1.0",
       },
     })
-    return {
-      code: response.status,
-      alive: response.status === 200,
-      error: null,
+    const setCookies =
+      typeof opened.headers.getSetCookie === "function" ? opened.headers.getSetCookie() : []
+    const cookie = cookiePairs(setCookies.length > 0 ? setCookies : opened.headers.get("set-cookie"))
+    if (opened.status >= 300 && opened.status < 400 && cookie) {
+      const page = await fetch(`https://${domain}/`, {
+        redirect: "manual",
+        signal: AbortSignal.timeout(20000),
+        headers: {
+          accept: "text/html,application/xhtml+xml",
+          "user-agent": "RuBrandsCheck/1.0",
+          cookie,
+        },
+      })
+      return { code: page.status, alive: page.status === 200, error: null }
     }
+    return { code: opened.status, alive: opened.status === 200, error: null }
   } catch {
     return { code: null, alive: false, error: "нет ответа" }
   }
@@ -119,27 +141,35 @@ function ruFromMeasurement(body) {
   const result = results[0]?.result
   if (!result || result.status === "in-progress") return null
   if (typeof result.statusCode === "number" && result.statusCode > 0) {
-    return { code: result.statusCode, state: "done", error: null }
+    return {
+      code: result.statusCode,
+      state: "done",
+      error: null,
+      headers: result.headers ?? null,
+    }
   }
   return { code: null, state: "error", error: "запрос с зонда не выполнен" }
 }
 
-async function createMeasurement(domain, token) {
+function requestOptions(cookie) {
+  if (cookie) return { method: "GET", path: "/", headers: { Cookie: cookie } }
+  return { method: "GET", path: "/", query: OPEN_QUERY }
+}
+
+async function createMeasurement(domain, token, cookie = "") {
+  const request = requestOptions(cookie)
   const payloads = [
     {
       type: "http",
-      target: `https://${domain}`,
+      target: cookie ? `https://${domain}/` : `https://${domain}/?${OPEN_QUERY}`,
       locations: [{ country: "RU" }],
-      measurementOptions: { request: { method: "GET" } },
+      measurementOptions: { request },
     },
     {
       type: "http",
       target: domain,
       locations: [{ country: "RU" }],
-      measurementOptions: {
-        protocol: "HTTPS",
-        request: { method: "GET", path: "/" },
-      },
+      measurementOptions: { protocol: "HTTPS", request },
     },
   ]
   for (const payload of payloads) {
@@ -190,7 +220,17 @@ async function checkRu(domain, token) {
     const created = await createMeasurement(domain, token)
     if (created.noProbe) return { code: null, state: "no-probe", error: null }
     if (!created.id) return { code: null, state: "error", error: created.error ?? "ошибка Globalping" }
-    return await pollMeasurement(created.id, token)
+    const first = await pollMeasurement(created.id, token)
+    const cookie =
+      first.state === "done" && first.code >= 300 && first.code < 400
+        ? cookiePairs(first.headers?.["set-cookie"] ?? first.headers?.["Set-Cookie"])
+        : ""
+    if (!cookie) return { code: first.code ?? null, state: first.state, error: first.error ?? null }
+    const opened = await createMeasurement(domain, token, cookie)
+    if (!opened.id) return { code: first.code, state: "done", error: null }
+    const page = await pollMeasurement(opened.id, token)
+    if (page.state !== "done") return { code: first.code, state: "done", error: null }
+    return { code: page.code, state: "done", error: null }
   } catch {
     return { code: null, state: "error", error: "ошибка Globalping" }
   }
