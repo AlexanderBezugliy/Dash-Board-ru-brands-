@@ -3,7 +3,7 @@ import statusDocument from "../../data/status.json" with { type: "json" }
 
 export const filters = [
   { id: "all", label: "Все домены" },
-  { id: "http", label: "Не отвечают" },
+  { id: "http", label: "Клоака не закрыла" },
   { id: "ru", label: "Не открылись в РФ" },
   { id: "rkn", label: "В реестре" },
   { id: "index", label: "Без индекса" },
@@ -118,7 +118,10 @@ export function loadRows(): { checkedAt: string | null; rows: DomainCheck[] } {
 
 export function matchesFilter(row: DomainCheck, filter: FilterId): boolean {
   if (filter === "all") return true
-  if (filter === "http") return row.http.alive === false
+  if (filter === "http") {
+    if (row.http.code === null && row.http.error === null) return false
+    return row.http.code !== 503
+  }
   if (filter === "ru") {
     if (row.ru.state === "pending" || row.ru.state === "no-probe") return false
     if (row.ru.state === "done") return row.ru.code !== 200
@@ -155,15 +158,15 @@ export function summaryText(rows: DomainCheck[], checkedAt: string | null): stri
   if (!checkedAt) {
     return `В списке ${total} ${domainsWord(total)}. Результаты появятся после первой проверки.`
   }
-  const httpDown = rows.filter((row) => row.http.alive === false).length
+  const cloakOpen = rows.filter((row) => matchesFilter(row, "http")).length
   const ruDown = rows.filter((row) => matchesFilter(row, "ru")).length
   const noProbe = rows.filter((row) => row.ru.state === "no-probe").length
   const listed = rows.filter((row) => row.rkn.listed === true).length
   const noAccess = rows.filter((row) => row.yandex.error === "нет доступа").length
   const sentences = [
-    httpDown === 0
-      ? "Все сайты ответили кодом 200."
-      : `Не ответили ${httpDown} из ${total}.`,
+    cloakOpen === 0
+      ? "Клоака отвечает 503 на всех сайтах."
+      : `Клоака не закрыла ${cloakOpen} из ${total}.`,
   ]
   if (ruDown > 0) sentences.push(`Из России не открылись ${ruDown}.`)
   if (noProbe > 0) sentences.push(`Без российского зонда ${noProbe}.`)
@@ -184,7 +187,7 @@ export function formatIndexed(value: number): string {
 }
 
 export function rowHasProblem(row: DomainCheck): boolean {
-  if (row.http.alive === false) return true
+  if ((row.http.code !== null || row.http.error !== null) && row.http.code !== 503) return true
   if (row.ru.state === "done" && row.ru.code !== 200) return true
   return row.rkn.listed === true
 }

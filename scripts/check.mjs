@@ -4,7 +4,8 @@ import { fileURLToPath } from "node:url"
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..")
 
-// Главная без этого параметра отвечает 503. С ним открывается обычная страница.
+// Закрытая главная отвечает 503: так видно, что клоака работает.
+// Из России страница открывается только с этим параметром и cookie.
 const OPEN_QUERY = "view=d7Fm2Kp9Qx4Nw8Rz"
 
 // Позже: если заданы TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID,
@@ -86,30 +87,15 @@ function cookiePairs(setCookie) {
 
 async function checkHttp(domain) {
   try {
-    const opened = await fetch(`https://${domain}/?${OPEN_QUERY}`, {
-      redirect: "manual",
+    const response = await fetch(`https://${domain}/`, {
+      redirect: "follow",
       signal: AbortSignal.timeout(20000),
       headers: {
         accept: "text/html,application/xhtml+xml",
         "user-agent": "RuBrandsCheck/1.0",
       },
     })
-    const setCookies =
-      typeof opened.headers.getSetCookie === "function" ? opened.headers.getSetCookie() : []
-    const cookie = cookiePairs(setCookies.length > 0 ? setCookies : opened.headers.get("set-cookie"))
-    if (opened.status >= 300 && opened.status < 400 && cookie) {
-      const page = await fetch(`https://${domain}/`, {
-        redirect: "manual",
-        signal: AbortSignal.timeout(20000),
-        headers: {
-          accept: "text/html,application/xhtml+xml",
-          "user-agent": "RuBrandsCheck/1.0",
-          cookie,
-        },
-      })
-      return { code: page.status, alive: page.status === 200, error: null }
-    }
-    return { code: opened.status, alive: opened.status === 200, error: null }
+    return { code: response.status, alive: response.status === 503, error: null }
   } catch {
     return { code: null, alive: false, error: "нет ответа" }
   }
