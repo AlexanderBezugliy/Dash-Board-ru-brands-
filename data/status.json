@@ -1,1096 +1,1096 @@
 {
-  "checkedAt": null,
+  "checkedAt": "2026-11-10T12:48:39.045Z",
   "domains": [
     {
       "domain": "casinotopru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "cazrank.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "сайт не в Вебмастере"
       }
     },
     {
       "domain": "topkazik.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "obzorcaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "allkazino.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "cazlist.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "freshcaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "legalcaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "turbovyvod.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "realbablo.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "surecaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "rucazrank.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "slotvyvod.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "vyvodcasino.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "avtomatyru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topsloty.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "avtomatyrf.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "rfcazrank.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "nadengirf.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "igradengi.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "avtomaty777ru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topspinreel.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "popcasinoru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "stelefona.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "slotplayru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topnadengi.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "casino100rub.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "nadengiru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "slotzoneru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "chestnocaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "casinoproverka.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "cashspinru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "bezverif.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topslotycash.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "rankcaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "casinorubli.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "bonuscazhub.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "slotvyvodru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topcasinorf.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topcazrank.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "gidkaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "ruskaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "igrocaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "godnykazik.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "avtomatytop.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "ofickazik.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "kaz100.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "topslotru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "bestslotru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "rubkaz.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     },
     {
       "domain": "casinotop10ru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "сайт не подтверждён"
       }
     },
     {
       "domain": "casinotop5ru.com",
       "http": {
-        "code": null,
-        "alive": null,
+        "code": 503,
+        "alive": false,
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "pending",
+        "code": 503,
+        "state": "done",
         "error": null
       },
       "rkn": {
         "listed": null,
-        "error": null
+        "error": "реестр РКН не получен"
       },
       "yandex": {
         "indexed": null,
-        "error": null
+        "error": "ошибка Вебмастера"
       }
     }
   ]
