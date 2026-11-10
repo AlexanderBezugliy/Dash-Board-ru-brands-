@@ -1,0 +1,1097 @@
+{
+  "checkedAt": null,
+  "domains": [
+    {
+      "domain": "casinotopru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "cazrank.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topkazik.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "obzorcaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "allkazino.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "cazlist.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "freshcaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "legalcaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "turbovyvod.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "realbablo.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "surecaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "rucazrank.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "slotvyvod.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "vyvodcasino.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "avtomatyru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topsloty.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "avtomatyrf.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "rfcazrank.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "nadengirf.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "igradengi.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "avtomaty777ru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topspinreel.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "popcasinoru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "stelefona.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "slotplayru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topnadengi.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "casino100rub.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "nadengiru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "slotzoneru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "chestnocaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "casinoproverka.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "cashspinru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "bezverif.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topslotycash.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "rankcaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "casinorubli.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "bonuscazhub.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "slotvyvodru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topcasinorf.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topcazrank.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "gidkaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "ruskaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "igrocaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "godnykazik.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "avtomatytop.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "ofickazik.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "kaz100.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "topslotru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "bestslotru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "rubkaz.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "casinotop10ru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    },
+    {
+      "domain": "casinotop5ru.com",
+      "http": {
+        "code": null,
+        "alive": null,
+        "error": null
+      },
+      "ru": {
+        "code": null,
+        "state": "pending",
+        "error": null
+      },
+      "rkn": {
+        "listed": null,
+        "error": null
+      },
+      "yandex": {
+        "indexed": null,
+        "error": null
+      }
+    }
+  ]
+}
