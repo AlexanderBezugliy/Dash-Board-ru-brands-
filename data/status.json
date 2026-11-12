@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-11T12:33:16.471Z",
+  "checkedAt": "2026-11-12T13:37:59.307Z",
   "domains": [
     {
       "domain": "casinotopru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -25,8 +25,8 @@
     {
       "domain": "cazrank.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -46,8 +46,8 @@
     {
       "domain": "topkazik.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -67,8 +67,8 @@
     {
       "domain": "obzorcaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -88,8 +88,8 @@
     {
       "domain": "allkazino.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -109,8 +109,8 @@
     {
       "domain": "cazlist.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -130,8 +130,8 @@
     {
       "domain": "freshcaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -151,8 +151,8 @@
     {
       "domain": "legalcaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -172,8 +172,8 @@
     {
       "domain": "turbovyvod.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -193,8 +193,8 @@
     {
       "domain": "realbablo.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -214,8 +214,8 @@
     {
       "domain": "surecaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -235,8 +235,8 @@
     {
       "domain": "rucazrank.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -256,8 +256,8 @@
     {
       "domain": "slotvyvod.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -277,8 +277,8 @@
     {
       "domain": "vyvodcasino.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -298,8 +298,8 @@
     {
       "domain": "avtomatyru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -319,8 +319,8 @@
     {
       "domain": "topsloty.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -340,8 +340,8 @@
     {
       "domain": "avtomatyrf.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -361,8 +361,8 @@
     {
       "domain": "rfcazrank.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -382,8 +382,8 @@
     {
       "domain": "nadengirf.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -403,8 +403,8 @@
     {
       "domain": "igradengi.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -424,8 +424,8 @@
     {
       "domain": "avtomaty777ru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -445,8 +445,8 @@
     {
       "domain": "topspinreel.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -466,8 +466,8 @@
     {
       "domain": "popcasinoru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -487,8 +487,8 @@
     {
       "domain": "stelefona.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -508,8 +508,8 @@
     {
       "domain": "slotplayru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -529,8 +529,8 @@
     {
       "domain": "topnadengi.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -550,8 +550,8 @@
     {
       "domain": "casino100rub.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -571,8 +571,8 @@
     {
       "domain": "nadengiru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -592,8 +592,8 @@
     {
       "domain": "slotzoneru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -613,8 +613,8 @@
     {
       "domain": "chestnocaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -634,8 +634,8 @@
     {
       "domain": "casinoproverka.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -655,8 +655,8 @@
     {
       "domain": "cashspinru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -676,8 +676,8 @@
     {
       "domain": "bezverif.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -697,8 +697,8 @@
     {
       "domain": "topslotycash.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -718,8 +718,8 @@
     {
       "domain": "rankcaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -739,8 +739,8 @@
     {
       "domain": "casinorubli.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -760,8 +760,8 @@
     {
       "domain": "bonuscazhub.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -781,8 +781,8 @@
     {
       "domain": "slotvyvodru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -802,8 +802,8 @@
     {
       "domain": "topcasinorf.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -823,8 +823,8 @@
     {
       "domain": "topcazrank.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -844,8 +844,8 @@
     {
       "domain": "gidkaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -865,8 +865,8 @@
     {
       "domain": "ruskaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -886,8 +886,8 @@
     {
       "domain": "igrocaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -907,8 +907,8 @@
     {
       "domain": "godnykazik.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -928,8 +928,8 @@
     {
       "domain": "avtomatytop.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -949,8 +949,8 @@
     {
       "domain": "ofickazik.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -970,8 +970,8 @@
     {
       "domain": "kaz100.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -991,8 +991,8 @@
     {
       "domain": "topslotru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -1012,8 +1012,8 @@
     {
       "domain": "bestslotru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -1033,8 +1033,8 @@
     {
       "domain": "rubkaz.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -1054,8 +1054,8 @@
     {
       "domain": "casinotop10ru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
@@ -1075,8 +1075,8 @@
     {
       "domain": "casinotop5ru.com",
       "http": {
-        "code": 503,
-        "alive": true,
+        "code": 200,
+        "alive": false,
         "error": null
       },
       "ru": {
