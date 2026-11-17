@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T13:28:16.683Z",
+  "checkedAt": "2026-11-17T14:14:07.680Z",
   "domains": [
     {
       "domain": "casinotopru.com",
@@ -282,7 +282,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -345,9 +345,9 @@
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "error",
-        "error": "запрос с зонда не выполнен"
+        "code": 200,
+        "state": "done",
+        "error": null
       },
       "rkn": {
         "listed": null,
@@ -408,9 +408,9 @@
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "error",
-        "error": "запрос с зонда не выполнен"
+        "code": 200,
+        "state": "done",
+        "error": null
       },
       "rkn": {
         "listed": null,
@@ -429,9 +429,9 @@
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "error",
-        "error": "запрос с зонда не выполнен"
+        "code": 200,
+        "state": "done",
+        "error": null
       },
       "rkn": {
         "listed": null,
@@ -660,7 +660,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -723,7 +723,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -786,7 +786,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -828,7 +828,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -849,7 +849,7 @@
         "error": null
       },
       "ru": {
-        "code": 302,
+        "code": 200,
         "state": "done",
         "error": null
       },
@@ -912,7 +912,7 @@
         "error": null
       },
       "ru": {
-        "code": 200,
+        "code": 302,
         "state": "done",
         "error": null
       },
@@ -1080,9 +1080,9 @@
         "error": null
       },
       "ru": {
-        "code": null,
-        "state": "error",
-        "error": "запрос с зонда не выполнен"
+        "code": 200,
+        "state": "done",
+        "error": null
       },
       "rkn": {
         "listed": null,
